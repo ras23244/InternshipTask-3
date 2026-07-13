@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Web Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Advanced Web Development</h1>
+    </header>
+
+    <!-- Responsive Cards -->
+    <section class="container">
+
+        <div class="card">
+            <h2>Responsive Design</h2>
+            <p>
+                Resize the browser window to see how the layout changes
+                for desktop, tablet, and mobile.
+            </p>
+        </div>
+
+        <!-- Quiz Section -->
+
+        <div class="card">
+            <h2>JavaScript Quiz</h2>
+
+            <h3 id="question"></h3>
+
+            <div id="answers"></div>
+
+            <button id="nextBtn">Next Question</button>
+
+            <p id="score"></p>
+        </div>
+
+        <!-- API Section -->
+
+        <div class="card">
+            <h2>Random Joke API</h2>
+
+            <button onclick="getJoke()">Get Joke</button>
+
+            <p id="joke"></p>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
